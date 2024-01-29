@@ -32,6 +32,8 @@ for item in ingredients:
   print(item)
 
 # There is a thing in Python called an elegant loop, which allows for the loop to be written as one line and not need indentation:
-for ingredient in ingredients: print(ingredient)
+for ingredient in ingredients: print(ingredient) # This is useful for simple programs, but not recommended for any loop that has to perform multiple complex actions on each iteration.
 
-# This is useful for simple programs, but not recommended for any loop that has to perform multiple complex actions on each iteration.
+# For Loops using Range - can be used to create arbitrary collections of any length
+for temp in range(5):
+  print("This will be printed 5 times")
