@@ -1,9 +1,9 @@
 # Study Guide: Python Functions
 
 ## Key Terms
-- **return value** - value or variable returned as the end_result of a function
-- **parameter (argument)** - a value that is passed into a function for use within the function
-- **refactoring** - a process to restructure code without changing functionality
+- **Return Value** - value or variable returned as the end_result of a function
+- **Parameter (argument)** - a value that is passed into a function for use within the function
+- **Refactoring** - a process to restructure code without changing functionality
 
 ## Things to remember
 - Python has built in functions that can be used to perform different tasks:
@@ -13,7 +13,8 @@
   - `sorted()` - sorts any iterable value in ascending order. Does not change the values of the iterable
   - `min()` - reports the smallest value
   - `max()` - reports the largest value
- 
+
+
 ## Cliff Notes
 - The `def()` keyword is used to define a new function
 - For best practices when writing code that is **readable** and **reusable**:
@@ -37,7 +38,7 @@ def greeting(name):
   print("Hello " + name + ". Your number is " + str(number))
 
 greeting("Jeff")
-greeting("Steve)
+greeting("Steve")
 ```
   - **Refactor Code** - Update code so it is self-documenting and the intent of the code is clear
   - **Add comments** - Adding comments is part of self-documenting code.
