@@ -26,3 +26,4 @@ sorted() - sorts the components of a list.
   Default sort is ascending order. Note that it does not change the iterable that it sorts.
 min() - returns the smallest numeric input passed to it
 max() - returns the largest numeric input passed to it
+"""
