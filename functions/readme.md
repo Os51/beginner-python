@@ -19,6 +19,10 @@
 - The `def()` keyword is used to define a new function
 - For best practices when writing code that is **readable** and **reusable**:
   - **Create a reusable function** - Replace duplicate code with one reusable function to make the code easier to read and repurpose.
+  - **Refactor Code** - Update code so it is self-documenting and the intent of the code is clear
+  - **Add comments** - Adding comments is part of self-documenting code.
+    - Use comments to leave notes for yourself or other programmers to make the purpose of the code clear.
+
 
 _Duplicate code_
 ```python
@@ -41,6 +45,3 @@ greeting("Jeff")
 greeting("Steve")
 ```
 
-  - **Refactor Code** - Update code so it is self-documenting and the intent of the code is clear
-  - **Add comments** - Adding comments is part of self-documenting code.
-    - Use comments to leave notes for yourself or other programmers to make the purpose of the code clear.
