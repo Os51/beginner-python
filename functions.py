@@ -13,3 +13,16 @@ def full_greeting(name, department):
 
 greeting("Ellie")
 full_greeting("Ellie", "IT Support")
+
+# Built-In Functions
+# - Functions that exist in Python and can be called directly
+"""
+List of built-in functions:
+print() - outputs a specified object to the screen
+type() - returns the data type of its argument. It may be passed to another function, like print, for output.
+str() - convert any data type to a string
+sorted() - sorts the components of a list. 
+  Also works on any iterable (like a string) and returns the sorted elements in a list. 
+  Default sort is ascending order. Note that it does not change the iterable that it sorts.
+min() - returns the smallest numeric input passed to it
+max() - returns the largest numeric input passed to it
