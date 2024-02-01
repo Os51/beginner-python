@@ -1,4 +1,9 @@
-## Logical Operators
+# Conditionals
+
+## Comparing things
+Python can be used to compare values. We can check if something is smaller than, equal to, or bigger than something else. We can take the result of a comparision expression and use it to make a decision. 
+With comparisions, the result can either be **true** or **false**. This data type is known as a Boolean value. 
+### Logical Operators
 - `and` - To evaluate as "True", the `and` operand would need both expressions to be true.
   - If just one expression is false, the operand result is False 
 
