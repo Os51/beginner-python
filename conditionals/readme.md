@@ -9,6 +9,9 @@ With comparisions, the result can either be **true** or **false**. This data typ
 - When comparing things in Python, the result is a Boolean of the appropriate value.
 
 ## Comparison Operators
+- These operations determine the result when comparing one value to another.
+- Comparison can be to see whether a value is greater than `>`, less than `<`, not equal `!=`
+
 
 ## Equality Operators
 - Operation to determine if a value is equal to another value.
@@ -19,7 +22,12 @@ print("cat" == "dog")  # False
 ```
 
 - The example evaulates to false as the string "cat" is not the same as "dog"
+- We can also use equality comparison on a string and int value, which is a different case to if we were trying to run an equation between the two (which normally presents an error)
 
+```python
+print(1 == "1")  # False
+```
+- Python knows that the data types are different, so though the values are the same, it still evaluates to false as 1 as int does not equal 1 as string (string does not equal int)
 
 ## Logical Operators
 - `and` - To evaluate as "True", the `and` operand would need both expressions to be true.
