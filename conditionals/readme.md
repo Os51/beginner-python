@@ -3,14 +3,17 @@
 Python can be used to compare values. We can check if something is smaller than, equal to, or bigger than something else. We can take the result of a comparision expression and use it to make a decision. 
 With comparisions, the result can either be **true** or **false**. This data type is known as a Boolean value. 
 
-!!! Boolean
-- Represents one of two states: **True** or **False**
-- When comparing things in Python, the result is a Boolean of the appropriate value.
+> **_NOTE:_** Boolean: Represents one of two states: **True** or **False**. Boolean is its own data type and _not_ a string.
+
 
 ___
 ## Comparison Operators
 - These operations determine the result when comparing one value to another.
-- Comparison can be to see whether a value is greater than `>` and less than `<`
+- The operators include:
+  - `>` - Greater Than
+  - `<` - Less Than
+  - `>=` - Greater Than or Equal To
+  - `<=` - Less Than or Equal To 
 
 ```python
 print(1 != 2)  # True
@@ -28,8 +31,8 @@ print("Yellow" > "Cyan" and "Brown" > "Magenta")
 print(1 > "1")  # Results in an error
 ```
 
-___
-## Equality Operators
+
+### Equality Operators
 - Operation to determine if a value is equal to another value.
 - Equality is determined with the `==` operation, or not equal `!=`.
 
