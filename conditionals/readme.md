@@ -18,6 +18,13 @@ ___
 ```python
 print(1 != 2)  # True
 ```
+
+- We can't normally compare two different data types to each other using these operators as it will result in an error
+```python
+print(1 > "1")  # Results in an error
+```
+
+### Comparison Operators with Strings
 - Comparisons can be done with numbers as well as strings. If we use greater than and less than on strings, it normally refers to alphabetical order.
 
 ```python
@@ -25,12 +32,14 @@ print("Yellow" > "Cyan" and "Brown" > "Magenta")
 ```
 - In this example, Yellow comes after Cyan, but brown doesn't come after Magenta. The whole result is therefore false as we're using the `and` operator.
 
+- Python comparison operators return Boolean results with strings.
 
-- We can't normally compare two different data types to each other using these operators as it will result in an error
-```python
-print(1 > "1")  # Results in an error
-```
-
+| Expression | Result |
+| ---------- | ------- |
+| "a" == "a" | String "a" is identical to string "a". Returns True. |
+| "a" != "b" | String "a" is not identical to string "b". Returns True. |
+| "a" > "b" | Does string "a" have a larger Unicode value than string "b". Returns False.|
+| "a" < "b" | Does string "a" have a smaller Unicode value to string "b" |
 
 ### Equality Operators
 - Operation to determine if a value is equal to another value.
