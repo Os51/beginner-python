@@ -80,3 +80,56 @@ print(4 < 6 or 3 > 6)  # True
 ```python
 print(not 4 < 6)  # False
 ```
+
+
+___
+# Branching
+- Ability of a program to alter its execution sequence
+
+## Branching using if statements
+- The function within an if statement will only run if the condition is evaluated as True, else it is skipped.
+
+```python
+def validate_username(username):
+  if len(username) < 3:
+    print("Username is invalid. Must be at least three characters long")
+```
+- In the example, the function will only output if the variable "username" is less than three characters long.
+
+## Branching using if/else
+- You can add a condition to run if the value of the if statement is **not** true.
+
+```python
+def validate_username(username):
+  if len(username) < 3:
+    print("Username is invalid. Must be at least three characters long")
+  else:
+    print("Valid username")
+```
+
+- This will evaluate based on the string in variable "username"
+  - If the length is less than three, the response from the if statement is activated
+  - If the length is more than three, the response from the else statement is activated
+
+- The else statement is useful but we don't always need to use it.
+- If we want to define a function that checks whether a number is positive or not, it can be written like this:
+
+```python
+def is_positive(number):
+  if number > 0:
+    return True
+  else:
+    return False
+```
+- However, we don't need to explicitly define an else function if using Return:
+
+```python
+def is_positive(number):
+  if number > 0:
+    return True
+  return False
+```
+- When a return statement is executed, the function exists so that the code that follows doesn't get executed. In this case, if the number is larger than zero, the first Return statement is triggered and the function exits as a result.
+
+___
+## Branching with if/elif/else
