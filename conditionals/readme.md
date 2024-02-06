@@ -131,5 +131,18 @@ def is_positive(number):
 ```
 - When a return statement is executed, the function exists so that the code that follows doesn't get executed. In this case, if the number is larger than zero, the first Return statement is triggered and the function exits as a result.
 
-___
+
 ## Branching with if/elif/else
+- If and else blocks allow branch execution depending on whether a condition is True of False
+- Using elif (else-if), we can add additional conditions and outcomes to a function.
+- The condition must be evaluated as True for the body of the elif block to be executed
+
+```python
+def validate_username(username):
+  if len(username) < 3:
+    print("Invalid username. Must be at least 3 characters long")
+  elif len(username) > 15:
+    print("Invalid username. Must be less than 15 characters")
+  else:
+    print("Valid username")
+```
