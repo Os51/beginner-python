@@ -43,6 +43,7 @@ print("Yellow" > "Cyan" and "Brown" > "Magenta")
 
 #### Unicode values for the alphabet
 | Unicode Number | Character | Unicode Number |  Character |
+| -------------- | --------- | -------------- | ---------- |
 | 65 | A | 97 | a |
 | 66 | B | 98 | b |
 | 67 | C | 99 | c |
